@@ -1075,7 +1075,7 @@ func newGraph(rpt *Report) (g graph, err error) {
 	return graph{ns}, nil
 }
 
-// Create a slice of formatted names for a location.
+// newLocInfo; Create a slice of formatted names for a location.
 func newLocInfo(l *profile.Location) []nodeInfo {
 	var objfile string
 

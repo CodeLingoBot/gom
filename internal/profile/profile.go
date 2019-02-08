@@ -328,7 +328,7 @@ func (p *Profile) Aggregate(inlineFrame, function, filename, linenumber, address
 	return p.CheckValid()
 }
 
-// Print dumps a text representation of a profile. Intended mainly
+// String; Print dumps a text representation of a profile. Intended mainly
 // for debugging purposes.
 func (p *Profile) String() string {
 

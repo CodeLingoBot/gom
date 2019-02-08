@@ -575,7 +575,7 @@ func floatFlagString(label string, value float64) string {
 	return fmt.Sprintf("  %-25s : %f\n", label, value)
 }
 
-// Utility routines to set flag values.
+// newBool; Utility routines to set flag values.
 func newBool(b bool) *bool {
 	return &b
 }
